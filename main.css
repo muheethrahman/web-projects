@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aqua;
+}
+
+#col2 {
+    border: 2px solid;
+    background-image: url("img/cam.jpg");
+}
+
+div img {
+    width: 100%;
+    margin-top: 60px;
+    padding-top: 60px;
+}
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#un {
+    padding-top: 20%;
+}
+
+#pw {
+    padding-top: 6%;
+}
+
+#un,
+#pw {
+    margin-left: 20%;
+}
+
+#pass,
+#email {
+    margin-left: 20%;
+}
+
+div button {
+    border-radius: 20%;
+    margin-top: 6%;
+}
+
+#btn1 {
+    margin-left: 20%;
+}

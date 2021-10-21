@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="navbar navbar-expand p-lg-4 bg-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" id="col1">
+                    <img src="img/download.jfif" alt="Image was here">
+
+                </div>
+                <div class="col-md-6" id="col2">
+                    <h3>SignIn Page</h3>
+                    <hr>
+                    <form action="" method="get" class="container">
+                        <label for="username" id="un">User Name</label>
+                        <div class="">
+                            <input type="email" placeholder="enter the email address" id="email" required/>
+
+                        </div>
+
+                        <label for="password" id="pw">Password</label>
+                        <div class="">
+                            <input type="password" id="pass" placeholder="enter the password" required/>
+
+                        </div>
+
+                        <div class="">
+                            <button type="submit" class="btn-success p-md-2" id="btn1" onclick="validate()"> Submit </button>
+                            <button type="reset" class="btn-danger p-md-2"> Clear </button>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <script>
+        // let x = 25000;
+        // console.log(x);
+        // let x = 26;
+        // console.log(x);
+        var x = 7800;
+        console.log(x);
+        var x = 78;
+        console.log(x);
+        const y = 250;
+        console.log(y);
+        //  const y = 251;
+        console.log(y);
+
+
+        // function validate() {
+        //     var username = document.getElementById("email").value;
+        //     var password = document.getElementById("pass").value;
+        //     alert("your username" + username + "your password is: " + password);
+        // }
+        var greet = function() {
+            alert("anonymous  function");
+        }
+        greet(); //anonymous function
+
+        (function() {
+            alert("invoking IIFE[immediately invoked function expression ]");
+        })(); //immediately invoked function expression
+    </script>
+
+
+</body>
+
+</html>
